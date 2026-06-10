@@ -1,0 +1,21 @@
+{
+  "name": "@redit/extension",
+  "private": true,
+  "scripts": {
+    "dev": "wxt -b firefox -p 3001",
+    "build": "wxt build -b firefox",
+    "typecheck": "wxt prepare && tsc --noEmit"
+  },
+  "dependencies": {
+    "@redit/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@wxt-dev/module-react": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "typescript": "catalog:",
+    "wxt": "catalog:"
+  }
+}
